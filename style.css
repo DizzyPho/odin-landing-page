@@ -76,7 +76,6 @@ body > div {
 }
 .hero div {
     flex: 1;
-
 }
 .hero .text * {
     margin: 10px 0;
@@ -90,6 +89,24 @@ h2 {
     margin: 50px;
     padding: 0;
     text-align: center;
+}
+.info {
+    gap: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+.box {
+    flex: 1 1 190px;
+    color: darkgray;
+    text-align: center;
+}
+.info-image {
+   border: 5px solid #3882F6; 
+   border-radius: 16px;
+   width: 190px;
+   height: 190px;
+   margin-bottom: 8px;
 }
 
 
