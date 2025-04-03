@@ -19,7 +19,7 @@ body > div {
 /*Header style*/
 .header h4 {
     font-size: 24px;
-    color: #F9FAF7;
+    color: #F9FAF8;
     margin: 0;
 }
 .header a {
@@ -44,6 +44,17 @@ body > div {
 
 /*Hero section style*/
 .hero {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.hero h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+.hero button {
+    display: block;
+}
