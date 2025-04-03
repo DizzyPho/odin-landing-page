@@ -2,5 +2,37 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
+    
+}
+
+body > div {
+    display: flex;
+}
+
+.dark-blue {
+    background-color: #1F2937;
+}
+
+.header h4 {
+    font-size: 24px;
+    color: #F9FAF7;
+    margin: 0;
+}
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header {
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
 }
 
