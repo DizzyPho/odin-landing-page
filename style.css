@@ -45,7 +45,7 @@ body > div {
     padding-bottom: 10px;
 }
 
-/*Hero section style*/
+
 .hero {
     display: flex;
     justify-content: center;
@@ -80,5 +80,12 @@ body > div {
 }
 .hero .text * {
     margin: 10px 0;
+}
+
+/*Info section style*/
+.info h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
 }
 
