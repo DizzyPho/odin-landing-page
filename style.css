@@ -10,6 +10,8 @@ body {
 
 body > div {
     display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .dark-blue {
@@ -38,15 +40,18 @@ body > div {
 }
 .header {
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*Hero section style*/
 .hero {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .hero h1 {
     padding: 0;
@@ -57,4 +62,23 @@ body > div {
 }
 .hero button {
     display: block;
+    color: inherit;
+    background-color: #3882F6;
+    border: hidden;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
+.hero .placeholder {
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero div {
+    flex: 1;
+
+}
+.hero .text * {
+    margin: 10px 0;
+}
+
