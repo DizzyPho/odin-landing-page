@@ -22,6 +22,10 @@ body > div {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+    font-weight: 200;
+}
+.header a:hover{
+    text-decoration: underline;
 }
 .header ul {
     padding: 0;
