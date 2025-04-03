@@ -4,6 +4,7 @@ body {
     font-family: "Roboto";
     color: #E5E7EB;
     font-weight: 400;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -22,7 +23,6 @@ body > div {
     margin: 0;
 }
 .header a {
-    font-size: 18px;
     text-decoration: none;
     color: inherit;
 }
@@ -44,6 +44,6 @@ body > div {
 
 /*Hero section style*/
 .hero {
-
+    
 }
 
