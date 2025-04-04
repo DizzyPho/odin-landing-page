@@ -24,6 +24,7 @@ body > div {
     border: hidden;
     padding: 8px 16px;
     border-radius: 8px;
+    font-weight: 700;
 }
 
 /*Header style*/
@@ -125,6 +126,30 @@ h2 {
     text-align: end;
     font-style: normal;
     font-weight: 700;
+    font-size: 32px;
 }
 
 /*sign-up section style*/
+.sign-up {
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.sign-up > div {
+    background-color: #3882F6;
+    border: hidden;
+    border-radius: 10px;
+    padding: 50px 120px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-up .sign-up-button {
+    border-color: #F9FAF8;
+    border: solid 2px;
+}
+h3 {
+    margin: 0;
+}
